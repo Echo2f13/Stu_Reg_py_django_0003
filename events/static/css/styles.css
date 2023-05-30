@@ -1,0 +1,252 @@
+.new_body{
+    margin: auto;
+}
+.Main_title{
+    font: 1em sans-serif;
+    font-size: 100px;
+}
+.title_container{
+    margin: auto;
+    width: 50%;
+    border: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.butten_container{
+    margin: auto;
+    width: 60%;
+    border: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.reg_button1{
+    position: relative;
+    right: 30px;
+}
+.login_button1 {
+    position: relative;
+    left: 30px;
+}
+.reg_button1,
+.login_button1 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.reg_button1:hover,
+.login_button1:hover{
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.login_button1:hover,
+.reg_button1:hover {
+    transform: translateY(-1px);
+}
+
+.login_button1:active,
+.reg_button1:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+.reg_primary_text{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Main_title{
+    font: 1em sans-serif;
+    font-size: 50px;
+}
+.title_container,
+.registration_form_container{
+    margin: auto;
+    width: 390px;
+    border: 0px;
+    padding: 0px;
+}
+.username_box{
+    position: relative;
+    left: 31px;
+}
+.password_box{
+    position: relative;
+    left: 35px;
+}
+
+
+.login_button2{
+    position: absolute;
+    left: 75px;
+    top: 1x0px;
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.login_button2:hover {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.login_button2:hover {
+    transform: translateY(-1px);
+}
+
+.reg_primary_text{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Main_title{
+    font: 1em sans-serif;
+    font-size: 50px;
+}
+
+.username_box{
+    position: relative;
+    left: 31px;
+}
+.password_box{
+    position: relative;
+    left: 35px;
+}
+.gender_radio_container{
+    position: relative;
+    bottom: 20px;
+    right: 80px;
+    margin: auto;
+    width: 50%;
+    border: 0px;
+    padding: 0px;
+}
+
+.admin_login_butten{
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.reg_button2{
+    position: absolute;
+    left: 110px;
+    bottom: 20px;
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.reg_button2:hover,
+.admin_login_butten:hover {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.reg_button2:hover {
+    transform: translateY(-1px);
+}
+
+.Main_title{
+    font: 1em sans-serif;
+    font-size: 100px;
+}
+.title_container{
+    margin: auto;
+    width: 50%;
+    border: 0px;
+    padding: 0px;
+    text-align: center;
+}
