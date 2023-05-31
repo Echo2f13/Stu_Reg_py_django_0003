@@ -199,9 +199,9 @@ def edit_student_profile(request):
             user.save();
             print("new",user.first_name)
             print("new",user.last_name)
-            return render(request, 'std_profile.html', {'user': User.objects.filter( id = stu_user_id ), 'std' : StudentData.objects.filter( user_id = stu_user_id ), 'cou' : CourseData.objects.all() })
+            return render(request, 'std_profile.html', {'user': User.objects.filter( id = stu_user_id ), 'std' : StudentData.objects.filter( user_id = stu_user_id ), 'cou' : CourseData.objects.all(), 'reg' : RegisteredData.objects.filter( student_id_id = stu_data_pre_2.student_id ) })
         elif 'back' in request.POST:
-            return render(request, 'std_profile.html', {'user': User.objects.filter( id = stu_user_id ), 'std' : StudentData.objects.filter( user_id = stu_user_id ), 'cou' : CourseData.objects.all() })
+            return render(request, 'std_profile.html', {'user': User.objects.filter( id = stu_user_id ), 'std' : StudentData.objects.filter( user_id = stu_user_id ), 'cou' : CourseData.objects.all(), 'reg' : RegisteredData.objects.filter( student_id_id = stu_data_pre_2.student_id )  })
         elif 'change_password' in request.POST:
             return render(request, 'std_change_pass.html', {'user': User.objects.filter( id = stu_user_id ), 'std' : StudentData.objects.filter( user_id = stu_user_id ), 'cou' : CourseData.objects.all() })
     else:
